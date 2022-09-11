@@ -161,6 +161,7 @@
 "Static width" = "Статическая ширина";
 "Tachometer widget" = "Тахометр";
 "State widget" = "Состояние";
+"Clock widget" = "Clock";
 "Show symbols" = "Показать символы";
 "Label widget" = "Этикетка";
 "Number of reads in the chart" = "Количество чтений на графике";

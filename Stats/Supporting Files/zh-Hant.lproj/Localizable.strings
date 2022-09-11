@@ -161,6 +161,7 @@
 "Static width" = "靜態寬度";
 "Tachometer widget" = "轉速計";
 "State widget" = "State 小工具";
+"Clock widget" = "Clock";
 "Show symbols" = "顯示符號";
 "Label widget" = "標籤";
 "Number of reads in the chart" = "圖表中的未讀計數";

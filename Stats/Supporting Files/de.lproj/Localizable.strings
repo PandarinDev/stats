@@ -161,6 +161,7 @@
 "Static width" = "Statische Breite";
 "Tachometer widget" = "Tachometer";
 "State widget" = "State widget";
+"Clock widget" = "Clock";
 "Show symbols" = "Symbole anzeigen";
 "Label widget" = "Label";
 "Number of reads in the chart" = "Anzahl an Elementen im Diagramm";

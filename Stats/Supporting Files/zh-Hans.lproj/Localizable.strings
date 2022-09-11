@@ -161,6 +161,7 @@
 "Static width" = "固定宽度";
 "Tachometer widget" = "转速计";
 "State widget" = "状态小组件";
+"Clock widget" = "Clock";
 "Show symbols" = "显示标识";
 "Label widget" = "标签";
 "Number of reads in the chart" = "图表显示的读取次数";

@@ -161,6 +161,7 @@
 "Static width" = "Chiều rộng cố định";
 "Tachometer widget" = "Máy đo tốc độ";
 "State widget" = "State widget";
+"Clock widget" = "Clock";
 "Show symbols" = "Hiển thị các biểu tượng";
 "Label widget" = "Nhãn";
 "Number of reads in the chart" = "Số lần đọc trong biểu đồ";

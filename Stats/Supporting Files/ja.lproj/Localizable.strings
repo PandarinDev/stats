@@ -161,6 +161,7 @@
 "Static width" = "固定幅";
 "Tachometer widget" = "タコメーター";
 "State widget" = "State widget";
+"Clock widget" = "Clock";
 "Show symbols" = "シンボルを表示";
 "Label widget" = "ラベル";
 "Number of reads in the chart" = "読み取り回数のチャート";

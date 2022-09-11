@@ -166,6 +166,7 @@
 "Number of reads in the chart" = "Брой прочитания в графиката";
 "Color of download" = "Цвят на свалянето";
 "Color of upload" = "Цвят на качването";
+"Clock widget" = "Clock";
 
 // Module Kit
 "Open module settings" = "Отваряне на настройките на модула";

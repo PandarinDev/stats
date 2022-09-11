@@ -161,6 +161,7 @@
 "Static width" = "너비 고정";
 "Tachometer widget" = "회전 속도계";
 "State widget" = "State widget";
+"Clock widget" = "Clock";
 "Show symbols" = "기호 표시";
 "Label widget" = "레이블";
 "Number of reads in the chart" = "도표의 읽기 횟수";

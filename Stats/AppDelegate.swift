@@ -12,6 +12,7 @@ import Kit
 import UserNotifications
 
 import CPU
+import Clock
 import RAM
 import Disk
 import Net
@@ -20,16 +21,17 @@ import Sensors
 import GPU
 import Bluetooth
 
-let updater = Updater(github: "exelban/stats", url: "https://api.serhiy.io/v1/stats/release/latest")
+let updater = Updater(github: "asdasd", url: "asdasd")
 var modules: [Module] = [
     CPU(),
+    Clock(),
     GPU(),
     RAM(),
     Disk(),
     Sensors(),
     Network(),
     Battery(),
-    Bluetooth()
+    // Bluetooth()
 ]
 
 @main
