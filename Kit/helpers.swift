@@ -1318,3 +1318,30 @@ public func controlState(_ sender: NSControl) -> Bool {
     
     return state == .on
 }
+
+public class ComboBoxStringDataSource : NSObject, NSComboBoxDataSource {
+    
+    private let completions: [String]
+    
+    public init(completions: [String]) {
+        self.completions = completions
+    }
+    
+    public func comboBox(_ comboBox: NSComboBox, completedString string: String) -> String? {
+        let substring = string.lowercased()
+        return completions.first { $0.lowercased().starts(with: substring) }
+    }
+    
+    public func comboBox(_ comboBox: NSComboBox, objectValueForItemAt index: Int) -> Any? {
+        return completions[index]
+    }
+    
+    public func comboBox(_ comboBox: NSComboBox, indexOfItemWithStringValue string: String) -> Int {
+        return completions.firstIndex(of: string) ?? -1
+    }
+    
+    public func numberOfItems(in comboBox: NSComboBox) -> Int {
+        return completions.count
+    }
+    
+}

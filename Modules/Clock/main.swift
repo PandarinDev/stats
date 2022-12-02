@@ -20,7 +20,7 @@ public class Clock: Module {
         self.popupView = Popup()
         self.settingsView = Settings("Clock")
         self.reader = ClockReader()
-        self.timeZones = ["UTC"]
+        self.timeZones = [TimeZone.current.identifier]
         super.init(popup: popupView, settings: settingsView)
         self.settingsView.selectedTimeZonesHandler = handleSelectedTimeZonesChanged
         self.reader.callbackHandler = clockReadCallback
@@ -44,7 +44,7 @@ public class Clock: Module {
         }
         // Update popup
         self.popupView.clocks.forEach { clock in
-            clock.handsView.setTime(time: date)
+            clock.setTime(date)
         }
     }
     
